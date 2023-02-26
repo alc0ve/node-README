@@ -47,13 +47,49 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'contact',
+        name: 'email',
         message: 'Enter your email address.',
     },
 ];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
+
+const mdContent = ({ title, description, installation, usage, license, contributing, tests, github, email}) =>
+`# ${title}
+
+## Description
+
+${description}
+
+## Table of Contents
+
+
+## Installation
+
+${installation}
+
+## Usage
+
+${usage}
+
+## License
+
+${license}
+
+## How to Contribute
+
+${contributing}
+
+## Tests
+
+${tests}
+
+## Contact me
+
+[GitHub](${github})
+
+[Email](${email})`
 
 // TODO: Create a function to initialize app
 function init() {}
