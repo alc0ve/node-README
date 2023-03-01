@@ -20,6 +20,12 @@ ${data.description}
 
 ## Table of Contents
 
+[Installation](#Installation)
+[Usage](#Usage)
+[License](#License)
+[Contribute](#Contribute)
+[Tests](#Tests)
+[Contact Me](#Contact me)
 
 ## Installation
 
