@@ -1,11 +1,11 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  const badge = license
-  switch (badge) {
+  switch (license) {
     case 'MIT':
-      "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]";
-      break;
+      return `This is where a badge would  be!`
+      // return '[![License: MIT](https://img.shields.io/badge/License-MIT-blueviolet.svg)]';
+      
     default:
       return " ";
   }
@@ -19,6 +19,7 @@ function renderLicenseLink(license) { }
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   return `${license}
+
   Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
   
   The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
@@ -40,10 +41,15 @@ ${data.description}
 ## Table of Contents
 
 ✦[Installation](#Installation)
+
 ✦[Usage](#Usage)
+
 ✦[License](#License)
+
 ✦[Contribute](#Contribute)
+
 ✦[Tests](#Tests)
+
 ✦[Contact Me](#Contact-me)
 
 ## Installation ⚙️
@@ -56,7 +62,6 @@ ${data.usage}
 
 ## License
 
-${data.license}
 ${renderLicenseSection(data.license)}
 
 ## How to Contribute
