@@ -28,10 +28,10 @@ const questions = [
         message: 'How does the application work?',
     },
     {
-        type: 'checkbox',
+        type: 'list',
         name: 'license',
         message: 'Please choose a license.',
-        choices: ['MIT', 'None'],
+        choices: ['MIT', 'Apache 2.0', 'None'],
     },
     {
         type: 'input',

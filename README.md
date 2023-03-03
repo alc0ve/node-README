@@ -1,10 +1,10 @@
 
-  ![License: MIT](https://img.shields.io/badge/License-MIT-blueviolet.svg)
-# testing
+  ![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
+# Testing license
 
 ## Description
 
-test
+apache
 
 ## Table of Contents
 
@@ -22,17 +22,17 @@ test
 
 ## Installation ⚙️
 
-this is a test
+
 
 ## Usage
 
-testing though
+
 
 ## License
 
-https://opensource.org/licenses/MIT
+https://opensource.org/licenses/Apache-2.0
 
-MIT
+Apache 2.0
 
   Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
   
@@ -47,7 +47,7 @@ no
 
 ## Tests
 
-no
+
 
 ## Contact me
 
